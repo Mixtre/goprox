@@ -1,2 +1,3 @@
 free-proxy
 parsel
+requests
