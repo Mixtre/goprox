@@ -18,7 +18,7 @@ pip install -r requirements.txt
 from goprox import GoogleSearch
 
 # Let Goprox do its magic!
-search = GoogleSearch("your query", num=5, region="us", language="en")
+search = GoogleSearch("your query", num=5, region="us", language="en", proxy=False)
 
 # Perform search with automatic proxy handling
 results = search.search()
