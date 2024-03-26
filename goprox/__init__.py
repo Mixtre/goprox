@@ -26,7 +26,7 @@ class GoogleSearch:
 
     def get_proxy(self):
         if self.proxy:
-            return FreeProxy().get()
+            return FreeProxy(https=True).get()
         else:
             return None
 
