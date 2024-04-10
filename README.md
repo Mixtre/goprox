@@ -1,8 +1,8 @@
-# 🚀 Goprox
+# Goprox
 
 Goprox is a magical Python module that performs Google searches with superpowers like automatic proxy handling, so you don't have to worry about a thing!
 
-## 📦 Installation
+## Installation
 
 1. Download or clone this repository.
 2. Copy the `goprox` directory to your project's directory.
@@ -12,7 +12,7 @@ Goprox is a magical Python module that performs Google searches with superpowers
 pip install -r requirements.txt
 ```
 
-## 💫 Quick Start
+## Quick Start
 
 ```python
 from goprox import GoogleSearch
@@ -28,17 +28,17 @@ for result in results:
     print(result)
 ```
 
-## ✨ Features
+## Features
 
 - Perform Google searches effortlessly with custom parameters.
 - Automatic handling of proxies for each search.
 - Goprox selects a random user-agent for each request.
 - It's super easy to use and makes searching Google a breeze.
 
-## 🙌 Credits
+## Credits
 
 This project uses the amazing [free-proxy](https://github.com/jundymek/free-proxy) module to fetch and validate proxies.
 
-## 📄 License
+## License
 
 Goprox is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
